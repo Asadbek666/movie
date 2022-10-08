@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+::-webkit-scrollbar{
+  width: 0px;
+  border-radius: 16px;
+}
+
+.container{
+  width: 100% !important;
+  max-width: 1300px !important;
+  margin:  0 auto !important;
+}
+
+.spinner{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 370px;
+}
